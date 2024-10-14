@@ -1,0 +1,84 @@
+﻿<Page x:Class="assignment01.RoomManagement"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:assignment01"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RoomManagement" Background="Aquamarine">
+
+    <Grid>
+        <!-- Define the main row structure -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <!-- Top section with TextBox and Buttons -->
+            <RowDefinition Height="*"></RowDefinition>
+            <!-- ListView section -->
+        </Grid.RowDefinitions>
+
+        <!-- Define the column structure -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="108*"></ColumnDefinition>
+            <ColumnDefinition Width="53*"></ColumnDefinition>
+            <ColumnDefinition Width="381*"/>
+            <ColumnDefinition Width="86*"></ColumnDefinition>
+            <ColumnDefinition Width="86*"></ColumnDefinition>
+            <ColumnDefinition Width="86*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <!-- Section with TextBoxes and Buttons -->
+        <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!-- Labels -->
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,3"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,3"></TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,3"></TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,3"></TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,3"></TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,3"></TextBlock>
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="Room : " FontSize="18" FontWeight="Bold" HorizontalAlignment="Left" Margin="3,3,0,4"></TextBlock>
+
+            <TextBox Grid.Row="0" Grid.Column="1" Name="CustomerID_txtBox" FontSize="18" Margin="3,3,3,3"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="CustomerFullName_txtBox" FontSize="18" Margin="3,3,3,3"></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1" Name="CustomerTele_txtBox" FontSize="18" Margin="3,3,3,3"></TextBox>
+            <TextBox Grid.Row="3" Grid.Column="1" Name="CustomerEmail_txtBox" FontSize="18" Margin="3,3,3,3"></TextBox>
+            <TextBox Grid.Row="4" Grid.Column="1" Name="CustomerBirthDay_txtBox" FontSize="18" Margin="3,3,3,3"></TextBox>
+            <TextBox Grid.Row="5" Grid.Column="1" Name="CustomerStatus_txtBox" FontSize="18" Margin="3,3,3,3"></TextBox>
+            <TextBox Grid.Row="6" Grid.Column="1" Name="CustomerPass_txtBox" FontSize="18" Margin="3,3,3,4"></TextBox>
+
+            <Button Grid.Row="0" Grid.Column="2" Content="Add" FontSize="16" FontWeight="Bold" Margin="3,3,3,0" Background="SandyBrown"></Button>
+            <Button Grid.Row="1" Grid.Column="2" Content="Update" FontSize="16" FontWeight="Bold" Margin="3,3,3,3" Background="LightPink"></Button>
+            <Button Grid.Row="2" Grid.Column="2" Content="Delete" FontSize="16" FontWeight="Bold" Margin="3,3,3,3" Background="OliveDrab"></Button>
+        </Grid>
+
+        <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" Name="CustomerListView" FontSize="15" FontWeight="Bold">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="RoomID" Width="100" DisplayMemberBinding="{Binding RoomID}"></GridViewColumn>
+                    <GridViewColumn Header="RoomName" Width="150" DisplayMemberBinding="{Binding RoomName}"></GridViewColumn>
+                    <GridViewColumn Header="RoomType" Width="100" DisplayMemberBinding="{Binding RoomType}"></GridViewColumn>
+                    <GridViewColumn Header="RoomStatus" Width="100" DisplayMemberBinding="{Binding RoomStatus}"></GridViewColumn>
+                    <GridViewColumn Header="RoomPrice" Width="100" DisplayMemberBinding="{Binding RoomPrice}"></GridViewColumn>
+                    <GridViewColumn Header="RoomCapacity" Width="150" DisplayMemberBinding="{Binding RoomCapacity}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Page>
