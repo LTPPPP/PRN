@@ -1,110 +1,247 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
+﻿using assignment01.Models;
+using assignment01.Utilities;
+using System;
 using System.Collections.ObjectModel;
-using System.Windows;
+using System.Linq;
 using System.Windows.Input;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace assignment01.ViewModels
 {
-    internal class CustomerManagementViewModel : BaseViewModel
+    public class CustomerManagementViewModel : BaseViewModel
     {
-        public ObservableCollection<Customer> Customers { get; set; }
+        private ObservableCollection<Customer> _customers;
+        public ObservableCollection<Customer> Customers
+        {
+            get => _customers;
+            set
+            {
+                _customers = value;
+                OnPropertyChanged(nameof(Customers));
+            }
+        }
 
+        private int _customerId;
+        public int CustomerId
+        {
+            get => _customerId;
+            set
+            {
+                _customerId = value;
+                OnPropertyChanged(nameof(CustomerId));
+            }
+        }
+        private string _customerFullName;
+        public string CustomerFullName
+        {
+            get => _customerFullName;
+            set
+            {
+                _customerFullName = value;
+                OnPropertyChanged(nameof(CustomerFullName));
+            }
+        }
+
+        private string _telephone;
+        public string Telephone
+        {
+            get => _telephone;
+            set
+            {
+                _telephone = value;
+                OnPropertyChanged(nameof(Telephone));
+            }
+        }
+
+        private string _emailAddress;
+        public string EmailAddress
+        {
+            get => _emailAddress;
+            set
+            {
+                _emailAddress = value;
+                OnPropertyChanged(nameof(EmailAddress));
+            }
+        }
+
+        private DateOnly _customerBirthday;
+        public DateOnly CustomerBirthday
+        {
+            get => _customerBirthday;
+            set
+            {
+                _customerBirthday = value;
+                OnPropertyChanged(nameof(CustomerBirthday));
+            }
+        }
+
+        private int _customerStatus;
+        public int CustomerStatus
+        {
+            get => _customerStatus;
+            set
+            {
+                _customerStatus = value;
+                OnPropertyChanged(nameof(CustomerStatus));
+            }
+        }
+
+        private string _password;
+        public string Password
+        {
+            get => _password;
+            set
+            {
+                _password = value;
+                OnPropertyChanged(nameof(Password));
+            }
+        }
+
+        private Customer _selectedCustomer;
+        public Customer SelectedCustomer
+        {
+            get => _selectedCustomer;
+            set
+            {
+                _selectedCustomer = value;
+                OnPropertyChanged(nameof(SelectedCustomer));
+
+                if (_selectedCustomer != null)
+                {
+                    CustomerId = _selectedCustomer.CustomerId;
+                    CustomerFullName = _selectedCustomer.CustomerFullName;
+                    Telephone = _selectedCustomer.Telephone;
+                    EmailAddress = _selectedCustomer.EmailAddress;
+                    CustomerBirthday = _selectedCustomer.CustomerBirthday;
+                    CustomerStatus = _selectedCustomer.CustomerStatus;
+                    Password = _selectedCustomer.Password;
+                }
+            }
+        }
+
+        // Commands
         public ICommand AddCustomerCommand { get; set; }
         public ICommand UpdateCustomerCommand { get; set; }
         public ICommand DeleteCustomerCommand { get; set; }
 
         public CustomerManagementViewModel()
         {
-            LoadCustomers();
-
-            // Bind commands to methods
+            // Initialize the commands
             AddCustomerCommand = new RelayCommand(AddCustomer);
             UpdateCustomerCommand = new RelayCommand(UpdateCustomer);
-            DeleteCustomerCommand = new RelayCommand(RemoveCustomer);
+            DeleteCustomerCommand = new RelayCommand(DeleteCustomer);
+            Customers = new ObservableCollection<Customer>();
+            LoadCustomers();
         }
 
-        // Load data
         private void LoadCustomers()
         {
-            Customers = new ObservableCollection<Customer>
+            using (var context = new PrnAssContext())
             {
-                new Customer
-                {
-                    CustomerId = 1,
-                    CustomerFullName = "John Doe",
-                    Telephone = "123-456-7890",
-                    EmailAddress = "johndoe@example.com",
-                    CustomerBirthday = new DateOnly(1990, 1, 1),
-                    CustomerStatus = 1,
-                    Password = "password123"
-                }
-            };
-        }
-
-        private Customer selectCustomer;
-        public Customer SelectedCustomer
-        {
-            get => selectCustomer;
-            set
-            {
-                selectCustomer = value;
-                OnPropertyChanged(nameof(SelectedCustomer));
+                var customerList = context.Customers.ToList();
+                Customers = new ObservableCollection<Customer>(customerList);
             }
-
         }
 
-        private void AddCustomer()
+        private void AddCustomer(object parameter)
         {
-            int newCustomerId = Customers.Max(c => c.CustomerId) + 1;
-
-            Customers.Add(new Customer
+            try
             {
-                CustomerId = newCustomerId,
-                CustomerFullName = "New Customer",
-                Telephone = "000-000-0000",
-                EmailAddress = "newcustomer@example.com",
-                CustomerBirthday = new DateOnly(2000, 1, 1),
-                CustomerStatus = 1,
-                Password = HashPassword("defaultPassword") // Consider using a hashed password
-            });
-        }
-
-        private void UpdateCustomer()
-        {
-            // Update customer logic here
-        }
-
-        // Hàm xóa
-        private void RemoveCustomer(object parameter)
-        {
-            if (selectCustomer != null) // Kiểm tra nếu có người dùng được chọn
-            {
-                MessageBoxResult result = MessageBox.Show($"Bạn có chắc muốn xóa người dùng {SelectedCustomer.Name}?",
-                                                          "Xác nhận xóa",
-                                                          MessageBoxButton.YesNo,
-                                                          MessageBoxImage.Question);
-
-                // Kiểm tra phản hồi của người dùng
-                if (result == MessageBoxResult.Yes)
+                using (var context = new PrnAssContext())
                 {
-                    // Tìm đối tượng trong ObservableCollection với Id tương ứng
-                    var user_Del = Customers.FirstOrDefault(s => s.CustomerId == SelectedCustomer.CustomerId);
-                    if (user_Del != null)
+                    // Find the highest CustomerId and add 1
+                    int newCustomerId = context.Customers.Any() ? context.Customers.Max(c => c.CustomerId) + 1 : 1;
+
+                    var newCustomer = new Customer
                     {
-                        // Xóa đối tượng khỏi ObservableCollection
-                        Customers.Remove(user_Del);
+                        CustomerId = newCustomerId,  // Set the new CustomerId
+                        CustomerFullName = CustomerFullName,
+                        Telephone = Telephone,
+                        EmailAddress = EmailAddress,
+                        CustomerBirthday = CustomerBirthday,
+                        CustomerStatus = 1, // Default to Active status
+                        Password = HashPassword(Password)
+                    };
+
+                    context.Customers.Add(newCustomer);
+                    context.SaveChanges();
+                    Customers.Add(newCustomer);
+
+                    // Reset the form
+                    CustomerFullName = string.Empty;
+                    Telephone = string.Empty;
+                    EmailAddress = string.Empty;
+                    CustomerBirthday = default;
+                    CustomerStatus = 1; // Default to Active
+                    Password = string.Empty;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while adding the customer: {ex.Message}");
+            }
+        }
+
+        private void UpdateCustomer(object parameter)
+        {
+            try
+            {
+                if (SelectedCustomer != null)
+                {
+                    using (var context = new PrnAssContext())
+                    {
+                        var customer = context.Customers.FirstOrDefault(c => c.CustomerId == SelectedCustomer.CustomerId);
+                        if (customer != null)
+                        {
+                            customer.CustomerFullName = CustomerFullName;
+                            customer.Telephone = Telephone;
+                            customer.EmailAddress = EmailAddress;
+                            customer.CustomerBirthday = CustomerBirthday;
+                            customer.CustomerStatus = CustomerStatus;
+                            if (!string.IsNullOrWhiteSpace(Password))
+                            {
+                                customer.Password = HashPassword(Password);
+                            }
+
+                            context.SaveChanges();
+                            LoadCustomers();
+                        }
                     }
                 }
-                // Clear selectedUser
-                SelectedCustomer = null;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while updating the customer: {ex.Message}");
             }
         }
 
+        private void DeleteCustomer(object parameter)
+        {
+            if (!string.IsNullOrEmpty(CustomerFullName)) // You can modify to use ID
+            {
+                using (var context = new PrnAssContext())
+                {
+                    var customer = context.Customers.FirstOrDefault(c => c.CustomerFullName == CustomerFullName);
+                    if (customer != null)
+                    {
+                        context.Customers.Remove(customer);
+                        context.SaveChanges();
+                        Customers.Remove(customer);
+                        LoadCustomers();
+                    }
+                }
+            }
+        }
 
         private string HashPassword(string password)
         {
-            // Replace this with actual hashing logic (e.g., SHA256 or bcrypt)
-            return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(password));
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = Encoding.UTF8.GetBytes(password);
+                byte[] hash = sha256.ComputeHash(bytes);
+                return Convert.ToBase64String(hash);
+            }
         }
     }
 }

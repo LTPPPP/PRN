@@ -1,0 +1,417 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\viewmodels\\customermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\viewmodels\\customermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\admin\\customermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\admin\\customermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\customer\\customerhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\customer\\customerhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\customer\\customerhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\customer\\customerhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\admin\\bookingmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\admin\\bookingmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\admin\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\admin\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gigabyte\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\admin\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\admin\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\utilities\\customeridtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\utilities\\customeridtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\viewmodels\\customerbookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\viewmodels\\customerbookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\viewmodels\\customerprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\viewmodels\\customerprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\customer\\customerbooking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\customer\\customerbooking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\customer\\customerbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\customer\\customerbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\customer\\customerprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\customer\\customerprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\customer\\customerprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\customer\\customerprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|e:\\cn\\fa24_k5\\prn212\\assignment01\\assignment01\\assignment01\\admin\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8910C1-2EE9-416D-860E-B93254315CE7}|assignment01\\assignment01.csproj|solutionrelative:assignment01\\admin\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 314,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\Gigabyte\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\Gigabyte\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAjwCcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:36:25.257Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerManagement.xaml.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\CustomerManagement.xaml.cs",
+              "RelativeDocumentMoniker": "assignment01\\Admin\\CustomerManagement.xaml.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\CustomerManagement.xaml.cs",
+              "RelativeToolTip": "assignment01\\Admin\\CustomerManagement.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:35:31.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "assignment01\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\MainWindow.xaml.cs",
+              "RelativeToolTip": "assignment01\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:13:25.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "assignment01\\MainWindow.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\MainWindow.xaml",
+              "RelativeToolTip": "assignment01\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T09:13:23.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerIDTest.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Utilities\\CustomerIDTest.cs",
+              "RelativeDocumentMoniker": "assignment01\\Utilities\\CustomerIDTest.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Utilities\\CustomerIDTest.cs",
+              "RelativeToolTip": "assignment01\\Utilities\\CustomerIDTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:08:29.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerBookingViewModel.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\CustomerBookingViewModel.cs",
+              "RelativeDocumentMoniker": "assignment01\\ViewModels\\CustomerBookingViewModel.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\CustomerBookingViewModel.cs",
+              "RelativeToolTip": "assignment01\\ViewModels\\CustomerBookingViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:59:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerManagement.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\CustomerManagement.xaml",
+              "RelativeDocumentMoniker": "assignment01\\Admin\\CustomerManagement.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\CustomerManagement.xaml",
+              "RelativeToolTip": "assignment01\\Admin\\CustomerManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T03:50:28.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "assignment01\\Models\\Booking.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Models\\Booking.cs",
+              "RelativeToolTip": "assignment01\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:30:08.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "assignment01\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "assignment01\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:30:47.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Utilities\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "assignment01\\Utilities\\RelayCommand.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Utilities\\RelayCommand.cs",
+              "RelativeToolTip": "assignment01\\Utilities\\RelayCommand.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvyUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:30:43.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomerBooking.xaml.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerBooking.xaml.cs",
+              "RelativeDocumentMoniker": "assignment01\\Customer\\CustomerBooking.xaml.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerBooking.xaml.cs",
+              "RelativeToolTip": "assignment01\\Customer\\CustomerBooking.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:28:24.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerBooking.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerBooking.xaml",
+              "RelativeDocumentMoniker": "assignment01\\Customer\\CustomerBooking.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerBooking.xaml",
+              "RelativeToolTip": "assignment01\\Customer\\CustomerBooking.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T03:27:08.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\Admin.xaml",
+              "RelativeDocumentMoniker": "assignment01\\Admin\\Admin.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\Admin.xaml",
+              "RelativeToolTip": "assignment01\\Admin\\Admin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T03:23:09.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerHomePage.xaml.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerHomePage.xaml.cs",
+              "RelativeDocumentMoniker": "assignment01\\Customer\\CustomerHomePage.xaml.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerHomePage.xaml.cs",
+              "RelativeToolTip": "assignment01\\Customer\\CustomerHomePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:21:58.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerHomePage.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerHomePage.xaml",
+              "RelativeDocumentMoniker": "assignment01\\Customer\\CustomerHomePage.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerHomePage.xaml",
+              "RelativeToolTip": "assignment01\\Customer\\CustomerHomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T03:21:52.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Admin.xaml.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\Admin.xaml.cs",
+              "RelativeDocumentMoniker": "assignment01\\Admin\\Admin.xaml.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\Admin.xaml.cs",
+              "RelativeToolTip": "assignment01\\Admin\\Admin.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:07:14.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerProfileViewModel.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\CustomerProfileViewModel.cs",
+              "RelativeDocumentMoniker": "assignment01\\ViewModels\\CustomerProfileViewModel.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\CustomerProfileViewModel.cs",
+              "RelativeToolTip": "assignment01\\ViewModels\\CustomerProfileViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwEMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:03:37.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerProfile.xaml.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerProfile.xaml.cs",
+              "RelativeDocumentMoniker": "assignment01\\Customer\\CustomerProfile.xaml.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerProfile.xaml.cs",
+              "RelativeToolTip": "assignment01\\Customer\\CustomerProfile.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:57:34.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerProfile.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerProfile.xaml",
+              "RelativeDocumentMoniker": "assignment01\\Customer\\CustomerProfile.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Customer\\CustomerProfile.xaml",
+              "RelativeToolTip": "assignment01\\Customer\\CustomerProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T02:55:23.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\App.xaml",
+              "RelativeDocumentMoniker": "assignment01\\App.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\App.xaml",
+              "RelativeToolTip": "assignment01\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T02:53:19.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingManagement.xaml",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\BookingManagement.xaml",
+              "RelativeDocumentMoniker": "assignment01\\Admin\\BookingManagement.xaml",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Admin\\BookingManagement.xaml",
+              "RelativeToolTip": "assignment01\\Admin\\BookingManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-15T02:54:25.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "assignment01\\Models\\Customer.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\Models\\Customer.cs",
+              "RelativeToolTip": "assignment01\\Models\\Customer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:44:30.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerManagementViewModel.cs",
+              "DocumentMoniker": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\CustomerManagementViewModel.cs",
+              "RelativeDocumentMoniker": "assignment01\\ViewModels\\CustomerManagementViewModel.cs",
+              "ToolTip": "E:\\CN\\FA24_K5\\PRN212\\Assignment01\\assignment01\\assignment01\\ViewModels\\CustomerManagementViewModel.cs",
+              "RelativeToolTip": "assignment01\\ViewModels\\CustomerManagementViewModel.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAUwPcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:32:42.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
